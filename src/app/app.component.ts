@@ -67,8 +67,8 @@ constructor(private dialog: MatDialog, private api:ApiService) {}
         this.getAllProducts();
       },
       error:()=> {
-        alert("Product deleted successfully");
-        this.getAllProducts();
+        alert("Error in deleting product");
+      
       }
     });
   }

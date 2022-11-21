@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment.prod';
+
 
 
 @Injectable({
@@ -10,22 +10,22 @@ export class ApiService {
 
   constructor(private http: HttpClient) { }
 
-  
+  apiUrl: string = "http://localhost:3000/productList/";
 
   postProduct(data:any) {
-    return this.http.post<any>(environment.apiUrl, data);
+    return this.http.post<any>(this.apiUrl, data);
   }
 
   getProduct() {
-    return this.http.get<any>(environment.apiUrl);
+    return this.http.get<any>(this.apiUrl);
   }
 
   putProduct(data:any, id:number) {
-    return this.http.put<any>(environment.apiUrl+id, data);
+    return this.http.put<any>(this.apiUrl+id, data);
   }
 
   deleteProduct(id:number) {
-    return this.http.delete<any>(environment.apiUrl+id);
+    return this.http.delete<any>(this.apiUrl+id);
     
   }
 }

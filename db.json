@@ -1,8 +1,8 @@
 {
   "productList": [
     {
-      "productName": "IPhone 32",
-      "category": "Computers",
+      "productName": "IPhone 324",
+      "category": "Phones",
       "condition": "New",
       "price": 700,
       "comment": "New product",
@@ -19,23 +19,67 @@
       "id": 2
     },
     {
-      "productName": "1",
-      "category": "Computers",
+      "productName": "IPhone 11",
+      "category": "Phones",
       "condition": "New",
-      "price": 1,
-      "comment": "1",
-      "date": "2022-11-24T21:00:00.000Z",
+      "price": 700,
+      "comment": "New Product",
+      "date": "2022-11-13T21:00:00.000Z",
       "id": 3
-    }
-  ],
-  "comments": [
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "productName": "Steelseries Siberia v2",
+      "category": "Headphones",
+      "condition": "Refurbished",
+      "price": 200,
+      "comment": "Used 1 week",
+      "date": "2022-11-08T21:00:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Macbook",
+      "category": "Computers",
+      "condition": "Used",
+      "price": 1000,
+      "comment": "Has scratches on case",
+      "date": "2022-11-10T21:00:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "Macbook Air",
+      "category": "Headphones",
+      "condition": "Refurbished",
+      "price": 200,
+      "comment": "Used 1 week",
+      "date": "2022-11-08T21:00:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "Huawei D16",
+      "category": "Headphones",
+      "condition": "Refurbished",
+      "price": 200,
+      "comment": "Used 1 week",
+      "date": "2022-11-08T21:00:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "Huawei P30",
+      "category": "Headphones",
+      "condition": "Refurbished",
+      "price": 200,
+      "comment": "Used 1 week",
+      "date": "2022-11-08T21:00:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "Lenovo XZ720",
+      "category": "Headphones",
+      "condition": "Refurbished",
+      "price": 200,
+      "comment": "Used 1 week",
+      "date": "2022-11-08T21:00:00.000Z",
+      "id": 10
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -48,10 +48,7 @@ export class DialogComponent implements OnInit {
             this.dialogRef.close('save');
           },
           error: () => {
-             alert('Product added successfully');
-        this.productForm.reset();
-        this.dialogRef.close('save');
-        window.location.reload();
+             alert('Error in adding product');          
        
           },
         });
@@ -70,10 +67,8 @@ export class DialogComponent implements OnInit {
         this.dialogRef.close('update');
       },
       error: () => {
-        alert('Product updated successfully');
-        this.productForm.reset();
-        this.dialogRef.close('update');
-        window.location.reload();
+        alert('Error in updating product');  
+        
         
       }
     });     
