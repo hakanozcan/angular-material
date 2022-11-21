@@ -1,0 +1,41 @@
+{
+  "productList": [
+    {
+      "productName": "IPhone 32",
+      "category": "Computers",
+      "condition": "New",
+      "price": 700,
+      "comment": "New product",
+      "date": "2022-11-19T21:00:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "HP Notebook",
+      "category": "Computers",
+      "condition": "New",
+      "price": 2000,
+      "comment": "New",
+      "date": "2022-11-19T21:00:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "1",
+      "category": "Computers",
+      "condition": "New",
+      "price": 1,
+      "comment": "1",
+      "date": "2022-11-24T21:00:00.000Z",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
