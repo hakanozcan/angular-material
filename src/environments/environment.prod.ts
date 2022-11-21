@@ -1,5 +1,5 @@
 export const environment = {
     production: true,
-    apiUrl: 'https://weatherapi-com.p.rapidapi.com/current.json',
+    apiUrl: 'https://json-server-rho-five.vercel.app/productList/',
    
   };
